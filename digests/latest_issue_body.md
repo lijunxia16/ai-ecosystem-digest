@@ -1,25 +1,10 @@
-<<<<<<< HEAD
-# AI Daily Digest (2026-05-12)
-=======
-# AI Daily Digest Bundle (2026-05-09)
->>>>>>> fb4e7f03e2759da606b9e23efd554cdb94b85e47
+# Daily digest published | 日报已生成 · 2026-05-13
 
-Single-file bilingual report generated successfully.
+**English** — Full bilingual report for this date is in the repository at the path below.
 
-<<<<<<< HEAD
-- Report file: `digests/2026-05-12/daily-digest.md`
-- Open in repo: [daily-digest.md](./digests/2026-05-12/daily-digest.md)
+**中文** — 当日完整中英对照报告已写入仓库，路径如下。
 
-Sections included:
-- AI CLI
-- AI Agents
-- AI Web
-- AI Trending
-- AI HN
-=======
-- `digests/2026-05-09/ai-cli.md`
-- `digests/2026-05-09/ai-agents.md`
-- `digests/2026-05-09/ai-web.md`
-- `digests/2026-05-09/ai-trending.md`
-- `digests/2026-05-09/ai-hn.md`
->>>>>>> fb4e7f03e2759da606b9e23efd554cdb94b85e47
+- **File | 文件:** `digests/2026-05-13/daily-digest.md`
+- **Open | 打开:** [daily-digest.md](./digests/2026-05-13/daily-digest.md)
+
+**Sections | 板块:** CLI · Agents · Web · Trending · Hacker News

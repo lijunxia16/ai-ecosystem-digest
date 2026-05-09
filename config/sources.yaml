@@ -5,24 +5,40 @@ ai_cli_repos:
   - qwenlm/qwen-code
   - oraios/serena
 
-openclaw_track_repos:
-  - openclaw/openclaw
+openclaw_primary_repo: openclaw/openclaw
+openclaw_compare_repos:
   - all-hands-ai/OpenHands
   - continuedev/continue
   - karpathy/llm.c
-  - xiaoyaocz/dailydotdev-ai-tools
+  - microsoft/autogen
+  - crewAIInc/crewAI
+  - langchain-ai/langgraph
+  - browser-use/browser-use
+  - Aider-AI/aider
+  - OpenInterpreter/open-interpreter
+  - practical-tutorials/project-based-learning
 
 openclaw_track_topics:
   - code-assistant
   - ai-agent
   - llm
 
-news_feeds:
+sitemap_sources:
   anthropic:
-    - https://www.anthropic.com/news/rss.xml
-    - https://www.anthropic.com/news
+    - https://www.anthropic.com/sitemap.xml
+    - https://www.anthropic.com/news/sitemap.xml
   openai:
-    - https://openai.com/news/rss.xml
-    - https://openai.com/news
+    - https://openai.com/sitemap.xml
+    - https://openai.com/news/sitemap.xml
 
 github_trending_url: https://github.com/trending?since=daily
+
+topic_labels:
+  - ai-agent
+  - code-assistant
+  - llm
+  - multimodal
+  - rag
+  - mcp
+
+claude_skills_search_query: "claude code skill"

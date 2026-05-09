@@ -82,14 +82,14 @@ class LLMProcessor:
 
     def _heuristic_fallback(self, item: RawItem) -> AIInsight:
         text = f"{item.title} {item.content}".lower()
-        if any(k in text for k in ["release", "tag", "version"]):
+        if item.source == "hn":
+            category = "ai_hn"
+        elif any(k in text for k in ["release", "tag", "version"]):
             category = "ai_cli"
         elif any(k in text for k in ["agent", "workflow", "openclaw", "skill"]):
             category = "ai_agents"
         elif any(k in text for k in ["anthropic", "openai", "research", "news"]):
             category = "ai_web"
-        elif item.source == "hn":
-            category = "ai_hn"
         else:
             category = "other"
 

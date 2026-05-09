@@ -1,9 +1,13 @@
-# AI Daily Digest Bundle (2026-05-10)
+# AI Daily Digest (2026-05-12)
 
-Generated files:
+Single-file bilingual report generated successfully.
 
-- `digests/2026-05-10/ai-cli.md`
-- `digests/2026-05-10/ai-agents.md`
-- `digests/2026-05-10/ai-web.md`
-- `digests/2026-05-10/ai-trending.md`
-- `digests/2026-05-10/ai-hn.md`
+- Report file: `digests/2026-05-12/daily-digest.md`
+- Open in repo: [daily-digest.md](./digests/2026-05-12/daily-digest.md)
+
+Sections included:
+- AI CLI
+- AI Agents
+- AI Web
+- AI Trending
+- AI HN

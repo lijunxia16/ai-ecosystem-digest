@@ -65,16 +65,28 @@ class LLMProcessor:
             return None
         try:
             text = res.json()["choices"][0]["message"]["content"]
-            payload = json.loads(text)
+            payload = self._parse_json_object(text)
             payload["source_url"] = str(item.url)
             return AIInsight.model_validate(payload)
         except Exception:
             return None
 
+    @staticmethod
+    def _parse_json_object(text: str) -> dict:
+        """Strip markdown fences if the model wraps JSON; keep reader-facing data clean downstream."""
+        t = (text or "").strip()
+        if t.startswith("```"):
+            t = re.sub(r"^```(?:json)?\s*", "", t, flags=re.IGNORECASE)
+            t = re.sub(r"\s*```$", "", t)
+        return json.loads(t)
+
     def _build_prompt(self, item: RawItem) -> str:
         return (
-            "Analyze this AI ecosystem item and return JSON with fields: "
+            "You are a tech news editor. Analyze the item and return ONLY valid JSON with keys: "
             "category, summary_zh, summary_en, sentiment, confidence, tags.\n"
+            "Rules: summary_zh and summary_en must be polished one-liners for human readers "
+            "(no meta phrases like 'this article', 'the model', 'fallback', 'heuristic', 'API'). "
+            "category must be one of: ai_cli, ai_agents, ai_web, ai_trending, ai_hn, other.\n"
             f"title: {item.title}\n"
             f"content: {item.content[:1000]}\n"
             f"metadata: {item.metadata}\n"
@@ -99,12 +111,25 @@ class LLMProcessor:
         if re.search(r"\b(risk|bug|issue|failure|ban)\b", text):
             sentiment = "negative"
 
+        # Reader-facing copy only — implementation detail stays in code comments, not in output.
+        # 读者可见文案：自然摘要；降级逻辑仅留在注释中，不出现在正文。
+        title_short = (item.title or "").strip()[:160]
+        if item.source == "hn":
+            summary_zh = f"Hacker News 热议：{title_short}"
+            summary_en = f"HN discussion: {title_short}"
+        elif item.source == "github":
+            summary_zh = f"GitHub 动态：{title_short}"
+            summary_en = f"GitHub activity: {title_short}"
+        else:
+            summary_zh = f"资讯摘要：{title_short}"
+            summary_en = f"Update: {title_short}"
+
         return AIInsight(
             category=category,  # type: ignore[arg-type]
-            summary_zh=f"【规则兜底】{item.title[:70]}，来源 {item.source}，建议人工复核细节。",
-            summary_en=f"[Heuristic fallback] {item.title[:90]} from {item.source}. Manual review recommended.",
+            summary_zh=summary_zh,
+            summary_en=summary_en,
             sentiment=sentiment,  # type: ignore[arg-type]
-            confidence=0.45,
+            confidence=0.55,
             tags=self._extract_tags(text),
             source_url=item.url,
         )

@@ -1,0 +1,63 @@
+name: Daily AI Digest
+
+on:
+  schedule:
+    # 08:00 CST (UTC+8) == 00:00 UTC
+    - cron: "0 0 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  issues: write
+
+jobs:
+  daily-digest:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Generate daily digest
+        env:
+          GH_PAT: ${{ secrets.GH_PAT }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python scripts/generate_digest.py
+
+      - name: Read digest metadata
+        id: meta
+        run: |
+          title=$(python - <<'PY'
+          import json
+          from pathlib import Path
+          meta = json.loads(Path("reports/latest_daily_meta.json").read_text(encoding="utf-8"))
+          print(meta["issue_title"])
+          PY
+          )
+          {
+            echo "title<<EOF"
+            echo "$title"
+            echo "EOF"
+          } >> "$GITHUB_OUTPUT"
+
+      - name: Create GitHub Issue
+        uses: peter-evans/create-issue-from-file@v5
+        with:
+          title: ${{ steps.meta.outputs.title }}
+          content-filepath: reports/latest_issue_body.md
+          labels: daily-report,ai-digest
+
+      - name: Commit generated markdown
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add reports/daily reports/latest_daily_meta.json reports/latest_issue_body.md
+          git commit -m "chore: update daily AI digest" || echo "No changes to commit"
+          git push

@@ -1,0 +1,49 @@
+name: Monthly AI Summary
+
+on:
+  schedule:
+    # 1st day each month at 08:20 CST (UTC+8) == 00:20 UTC
+    - cron: "20 0 1 * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  issues: write
+
+jobs:
+  monthly-summary:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Generate monthly summary
+        run: python scripts/generate_summary.py --mode monthly
+
+      - name: Get latest monthly file
+        id: monthly
+        run: |
+          file=$(ls -t reports/monthly/*.md | head -n 1)
+          echo "file=$file" >> "$GITHUB_OUTPUT"
+          name=$(basename "$file" .md)
+          echo "title=AI Monthly Summary / AI 每月汇总 - $name" >> "$GITHUB_OUTPUT"
+
+      - name: Create monthly issue
+        uses: peter-evans/create-issue-from-file@v5
+        with:
+          title: ${{ steps.monthly.outputs.title }}
+          content-filepath: ${{ steps.monthly.outputs.file }}
+          labels: monthly-report,ai-digest
+
+      - name: Commit monthly markdown
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add reports/monthly
+          git commit -m "chore: update monthly AI summary" || echo "No changes to commit"
+          git push

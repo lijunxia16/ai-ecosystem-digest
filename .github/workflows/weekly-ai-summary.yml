@@ -1,0 +1,49 @@
+name: Weekly AI Summary
+
+on:
+  schedule:
+    # Every Monday 08:10 CST (UTC+8) == Monday 00:10 UTC
+    - cron: "10 0 * * 1"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  issues: write
+
+jobs:
+  weekly-summary:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Generate weekly summary
+        run: python scripts/generate_summary.py --mode weekly
+
+      - name: Get latest weekly file
+        id: weekly
+        run: |
+          file=$(ls -t reports/weekly/*.md | head -n 1)
+          echo "file=$file" >> "$GITHUB_OUTPUT"
+          name=$(basename "$file" .md)
+          echo "title=AI Weekly Summary / AI 每周汇总 - $name" >> "$GITHUB_OUTPUT"
+
+      - name: Create weekly issue
+        uses: peter-evans/create-issue-from-file@v5
+        with:
+          title: ${{ steps.weekly.outputs.title }}
+          content-filepath: ${{ steps.weekly.outputs.file }}
+          labels: weekly-report,ai-digest
+
+      - name: Commit weekly markdown
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add reports/weekly
+          git commit -m "chore: update weekly AI summary" || echo "No changes to commit"
+          git push

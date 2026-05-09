@@ -1,0 +1,28 @@
+ai_cli_repos:
+  - cli/cli
+  - openai/codex
+  - anthropics/claude-code
+  - qwenlm/qwen-code
+  - oraios/serena
+
+openclaw_track_repos:
+  - openclaw/openclaw
+  - all-hands-ai/OpenHands
+  - continuedev/continue
+  - karpathy/llm.c
+  - xiaoyaocz/dailydotdev-ai-tools
+
+openclaw_track_topics:
+  - code-assistant
+  - ai-agent
+  - llm
+
+news_feeds:
+  anthropic:
+    - https://www.anthropic.com/news/rss.xml
+    - https://www.anthropic.com/news
+  openai:
+    - https://openai.com/news/rss.xml
+    - https://openai.com/news
+
+github_trending_url: https://github.com/trending?since=daily

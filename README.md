@@ -1,6 +1,6 @@
 # AI Ecosystem Digest | AI 生态情报日报
 
-面向 **GitHub 自动发布** 与 **个人作品集展示** 的项目：每日定时抓取多源信号，经 AI 分类与摘要后，输出**一份中英对照、分板块排版**的 Markdown，并可选发布为 GitHub Issue。
+每日定时抓取多源信号，经 AI 分类与摘要后，输出**一份中英对照、分板块排版**的 Markdown，并可选发布为 GitHub Issue。
 
 ---
 
@@ -70,6 +70,3 @@ python scripts/run_portfolio_pipeline.py --date 2026-05-12
 
 ---
 
-## 许可证
-
-按你的仓库策略自行补充（面试作品集可写 MIT 或「仅展示、勿商用」等说明）。

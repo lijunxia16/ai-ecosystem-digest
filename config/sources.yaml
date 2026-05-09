@@ -1,22 +1,49 @@
+# CLI tools: display name shown in ai-cli.md <details> / 展示名称与仓库
+cli_tools:
+  - name: "Claude Code"
+    repo: anthropics/claude-code
+  - name: "OpenAI Codex"
+    repo: openai/codex
+  - name: "Gemini CLI"
+    repo: google-gemini/gemini-cli
+  - name: "Kimi Code CLI"
+    repo: ""
+  - name: "OpenCode"
+    repo: sst/opencode
+  - name: "Qwen Code"
+    repo: QwenLM/qwen-code
+
+# Legacy flat list (used by generate_digest.py if needed)
 ai_cli_repos:
-  - cli/cli
-  - openai/codex
   - anthropics/claude-code
-  - qwenlm/qwen-code
-  - oraios/serena
+  - openai/codex
+  - google-gemini/gemini-cli
+  - MoonshotAI/kimi-cli
+  - sst/opencode
+  - QwenLM/qwen-code
+
+openclaw_focus:
+  name: "OpenClaw"
+  repo: openclaw/openclaw
+
+# Peers: display_name + repo (repo 留空则仅展示占位，不请求 API)
+openclaw_peers:
+  - { name: "Zeroclaw", repo: "" }
+  - { name: "EasyClaw", repo: "" }
+  - { name: "LobsterAI", repo: "" }
+  - { name: "ZeptoClaw", repo: "" }
+  - { name: "NanoBot", repo: "" }
+  - { name: "PicoClaw", repo: "" }
+  - { name: "NanoClaw", repo: "" }
+  - { name: "IronClaw", repo: "" }
+  - { name: "TinyClaw", repo: "" }
+  - { name: "CoPaw", repo: "" }
 
 openclaw_primary_repo: openclaw/openclaw
 openclaw_compare_repos:
   - all-hands-ai/OpenHands
   - continuedev/continue
-  - karpathy/llm.c
-  - microsoft/autogen
-  - crewAIInc/crewAI
-  - langchain-ai/langgraph
   - browser-use/browser-use
-  - Aider-AI/aider
-  - OpenInterpreter/open-interpreter
-  - practical-tutorials/project-based-learning
 
 openclaw_track_topics:
   - code-assistant
@@ -41,4 +68,27 @@ topic_labels:
   - rag
   - mcp
 
-claude_skills_search_query: "claude code skill"
+# GitHub Search: dimension label -> query (used in ai-trending.md)
+trending_dimensions:
+  - emoji: "🔧"
+    title_zh: "AI 基础工具"
+    title_en: "AI foundations & tooling"
+    query: "topic:cli stars:>=1000 archived:false"
+  - emoji: "🤖"
+    title_zh: "AI 智能体 / 工作流"
+    title_en: "Agents & workflows"
+    query: "topic:ai-agent stars:>=500 archived:false"
+  - emoji: "📦"
+    title_zh: "AI 应用"
+    title_en: "AI applications"
+    query: "topic:machine-learning stars:>=5000 archived:false"
+  - emoji: "🧠"
+    title_zh: "大模型 / 训练"
+    title_en: "Models & training"
+    query: "topic:llm stars:>=3000 archived:false"
+  - emoji: "🔍"
+    title_zh: "RAG / 知识库"
+    title_en: "RAG & knowledge"
+    query: "topic:rag stars:>=800 archived:false"
+
+claude_skills_search_query: "claude code skills OR anthropic skills"

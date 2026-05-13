@@ -4,14 +4,14 @@
 
 **中文** — 每日汇总 CLI 工具、智能体生态、公开网络信号、仓库趋势与 Hacker News 热点；每条含中英一句要点与原文链接。
 
-**Today | 今日** — 313 item(s) in this run.
+**Today | 今日** — 361 item(s) in this run.
 
 ## 0) At a glance | 今日速览
 
-- **CLI / 命令行工具**: 135
-- **Agents / 智能体**: 78
-- **Web / 官网与资讯**: 15
-- **Trending / 趋势**: 55
+- **CLI / 命令行工具**: 99
+- **Agents / 智能体**: 94
+- **Web / 官网与资讯**: 24
+- **Trending / 趋势**: 114
 - **HN / 社区**: 30
 
 ## 1) AI CLI | AI CLI 工具动态
@@ -20,44 +20,44 @@
 *中文 — 围绕发布、PR 和 Issue 的活跃变化。*
 
 ### Highlights | 重点速览
-1. **chore(deps): bump github.com/in-toto/in-toto-golang from 0.9.0 to 0.11.0**  
-   - **EN:** GitHub activity: chore(deps): bump github.com/in-toto/in-toto-golang from 0.9.0 to 0.11.0  
-   - **中文：** GitHub 动态：chore(deps): bump github.com/in-toto/in-toto-golang from 0.9.0 to 0.11.0  
-   - **Link | 原文：** [https://github.com/cli/cli/pull/13385](https://github.com/cli/cli/pull/13385)  
-   - **Tone | 语气:** Neutral / 中性
-
-2. **chore(deps): bump golang.org/x/sys from 0.43.0 to 0.44.0**  
-   - **EN:** GitHub activity: chore(deps): bump golang.org/x/sys from 0.43.0 to 0.44.0  
-   - **中文：** GitHub 动态：chore(deps): bump golang.org/x/sys from 0.43.0 to 0.44.0  
-   - **Link | 原文：** [https://github.com/cli/cli/pull/13381](https://github.com/cli/cli/pull/13381)  
-   - **Tone | 语气:** Neutral / 中性
-
-3. **feat(merge): handle worktree context in gh pr merge --delete-branch**  
-   - **EN:** GitHub activity: feat(merge): handle worktree context in gh pr merge --delete-branch  
-   - **中文：** GitHub 动态：feat(merge): handle worktree context in gh pr merge --delete-branch  
-   - **Link | 原文：** [https://github.com/cli/cli/issues/13380](https://github.com/cli/cli/issues/13380)  
+1. **[BUG] Claude in Chrome native host on Windows fails to claim bridge pipe — `ERR_INVALID_ARG_TYPE` fr**  
+   - **EN:** GitHub activity: [BUG] Claude in Chrome native host on Windows fails to claim bridge pipe — `ERR_INVALID_ARG_TYPE` from Bun's `node:net.listen` — missing stale-pipe cleanup bran  
+   - **中文：** GitHub 动态：[BUG] Claude in Chrome native host on Windows fails to claim bridge pipe — `ERR_INVALID_ARG_TYPE` from Bun's `node:net.listen` — missing stale-pipe cleanup bran  
+   - **Link | 原文：** [https://github.com/anthropics/claude-code/issues/58559](https://github.com/anthropics/claude-code/issues/58559)  
    - **Tone | 语气:** Critical / cautious / 偏谨慎 / 批评
 
-4. **aalmsahil15@gmail.com**  
-   - **EN:** GitHub activity: aalmsahil15@gmail.com  
-   - **中文：** GitHub 动态：aalmsahil15@gmail.com  
-   - **Link | 原文：** [https://github.com/cli/cli/issues/13379](https://github.com/cli/cli/issues/13379)  
+2. **[BUG] Claude Code in VS Code consumes ~2x more weekly limit after May 6, 2026 changes**  
+   - **EN:** GitHub activity: [BUG] Claude Code in VS Code consumes ~2x more weekly limit after May 6, 2026 changes  
+   - **中文：** GitHub 动态：[BUG] Claude Code in VS Code consumes ~2x more weekly limit after May 6, 2026 changes  
+   - **Link | 原文：** [https://github.com/anthropics/claude-code/issues/58557](https://github.com/anthropics/claude-code/issues/58557)  
    - **Tone | 语气:** Critical / cautious / 偏谨慎 / 批评
 
-5. **majid king**  
-   - **EN:** GitHub activity: majid king  
-   - **中文：** GitHub 动态：majid king  
-   - **Link | 原文：** [https://github.com/cli/cli/issues/13378](https://github.com/cli/cli/issues/13378)  
+3. **[BUG] Paste image not working**  
+   - **EN:** GitHub activity: [BUG] Paste image not working  
+   - **中文：** GitHub 动态：[BUG] Paste image not working  
+   - **Link | 原文：** [https://github.com/anthropics/claude-code/issues/58518](https://github.com/anthropics/claude-code/issues/58518)  
+   - **Tone | 语气:** Critical / cautious / 偏谨慎 / 批评
+
+4. **Claude ignore riles and feedback memory files,  and fabricates data**  
+   - **EN:** GitHub activity: Claude ignore riles and feedback memory files,  and fabricates data  
+   - **中文：** GitHub 动态：Claude ignore riles and feedback memory files,  and fabricates data  
+   - **Link | 原文：** [https://github.com/anthropics/claude-code/issues/58532](https://github.com/anthropics/claude-code/issues/58532)  
+   - **Tone | 语气:** Critical / cautious / 偏谨慎 / 批评
+
+5. **[BUG] /goal Stop hook fails with "JSON validation failed" when prompt-based hook returns markdown-fe**  
+   - **EN:** GitHub activity: [BUG] /goal Stop hook fails with "JSON validation failed" when prompt-based hook returns markdown-fenced JSON; goal never auto-clears  
+   - **中文：** GitHub 动态：[BUG] /goal Stop hook fails with "JSON validation failed" when prompt-based hook returns markdown-fenced JSON; goal never auto-clears  
+   - **Link | 原文：** [https://github.com/anthropics/claude-code/issues/58558](https://github.com/anthropics/claude-code/issues/58558)  
    - **Tone | 语气:** Critical / cautious / 偏谨慎 / 批评
 
 ### More | 更多条目
-- [jdhhdjdjfj](https://github.com/cli/cli/issues/13377) — *GitHub 动态：jdhhdjdjfj* / *GitHub activity: jdhhdjdjfj*
-- [Khalidalam](https://github.com/cli/cli/issues/13376) — *GitHub 动态：Khalidalam* / *GitHub activity: Khalidalam*
-- [Appreciate 👍](https://github.com/cli/cli/issues/13375) — *GitHub 动态：Appreciate 👍* / *GitHub activity: Appreciate 👍*
-- [X](https://github.com/cli/cli/issues/13373) — *GitHub 动态：X* / *GitHub activity: X*
-- [Skill discovery issues](https://github.com/cli/cli/issues/13372) — *GitHub 动态：Skill discovery issues* / *GitHub activity: Skill discovery issues*
-- [`gh skill update --dir` relocates the skill and deletes the original i](https://github.com/cli/cli/issues/13370) — *GitHub 动态：`gh skill update --dir` relocates the skill and deletes the original i* / *GitHub activity: `gh skill update --dir` relocates the skill and deletes the ori*
-- [chore(deps): bump github.com/in-toto/in-toto-golang from 0.9.0 to 0.11](https://github.com/cli/cli/pull/13385) — *GitHub 动态：chore(deps): bump github.com/in-toto/in-toto-golang from 0.9.0 to 0.11* / *GitHub activity: chore(deps): bump github.com/in-toto/in-toto-golang from 0.9.0 *
+- [[BUG] v2.1.140 VS Code extension on Windows: project skills missing fr](https://github.com/anthropics/claude-code/issues/58556) — *GitHub 动态：[BUG] v2.1.140 VS Code extension on Windows: project skills missing fr* / *GitHub activity: [BUG] v2.1.140 VS Code extension on Windows: project skills mis*
+- [FleetView dashboard layout broken after returning from session (v2.1.1](https://github.com/anthropics/claude-code/issues/58555) — *GitHub 动态：FleetView dashboard layout broken after returning from session (v2.1.1* / *GitHub activity: FleetView dashboard layout broken after returning from session *
+- [[BUG] Severe native memory leak (~738 GB/h) — CLI fully unresponsive (](https://github.com/anthropics/claude-code/issues/58272) — *GitHub 动态：[BUG] Severe native memory leak (~738 GB/h) — CLI fully unresponsive (* / *GitHub activity: [BUG] Severe native memory leak (~738 GB/h) — CLI fully unrespo*
+- [Resume loses most context: parentUuid chain breaks on unpersisted mess](https://github.com/anthropics/claude-code/issues/58554) — *GitHub 动态：Resume loses most context: parentUuid chain breaks on unpersisted mess* / *GitHub activity: Resume loses most context: parentUuid chain breaks on unpersist*
+- [[Bug] Write and Edit tools truncate files on virtiofs mounts in Claude](https://github.com/anthropics/claude-code/issues/58551) — *GitHub 动态：[Bug] Write and Edit tools truncate files on virtiofs mounts in Claude* / *GitHub activity: [Bug] Write and Edit tools truncate files on virtiofs mounts in*
+- [[BUG] Not getting any iOS notification for Claude Code on phone when p](https://github.com/anthropics/claude-code/issues/58548) — *GitHub 动态：[BUG] Not getting any iOS notification for Claude Code on phone when p* / *GitHub activity: [BUG] Not getting any iOS notification for Claude Code on phone*
+- [Worktrees spawned by Claude Code are missing untracked files from main](https://github.com/anthropics/claude-code/issues/58546) — *GitHub 动态：Worktrees spawned by Claude Code are missing untracked files from main* / *GitHub activity: Worktrees spawned by Claude Code are missing untracked files fr*
 
 ## 2) AI Agents | 智能体与 OpenClaw 赛道
 
@@ -65,44 +65,44 @@
 *中文 — 关注生态协作、项目演进与 Skills 热度。*
 
 ### Highlights | 重点速览
-1. **Trigger triage check-requirements on ready_for_review**  
-   - **EN:** GitHub activity: Trigger triage check-requirements on ready_for_review  
-   - **中文：** GitHub 动态：Trigger triage check-requirements on ready_for_review  
-   - **Link | 原文：** [https://github.com/cli/cli/pull/13383](https://github.com/cli/cli/pull/13383)  
+1. **[FEATURE] create/write agents on the fly.**  
+   - **EN:** GitHub activity: [FEATURE] create/write agents on the fly.  
+   - **中文：** GitHub 动态：[FEATURE] create/write agents on the fly.  
+   - **Link | 原文：** [https://github.com/anthropics/claude-code/issues/58544](https://github.com/anthropics/claude-code/issues/58544)  
    - **Tone | 语气:** Neutral / 中性
 
-2. **Trigger triage check-requirements on ready_for_review**  
-   - **EN:** GitHub activity: Trigger triage check-requirements on ready_for_review  
-   - **中文：** GitHub 动态：Trigger triage check-requirements on ready_for_review  
-   - **Link | 原文：** [https://github.com/cli/cli/pull/13383](https://github.com/cli/cli/pull/13383)  
+2. **docs: add PostToolUse continueOnBlock option to hooks documentation**  
+   - **EN:** GitHub activity: docs: add PostToolUse continueOnBlock option to hooks documentation  
+   - **中文：** GitHub 动态：docs: add PostToolUse continueOnBlock option to hooks documentation  
+   - **Link | 原文：** [https://github.com/anthropics/claude-code/pull/58323](https://github.com/anthropics/claude-code/pull/58323)  
    - **Tone | 语气:** Neutral / 中性
 
-3. **Ignore stale /tmp git markers in project discovery**  
-   - **EN:** GitHub activity: Ignore stale /tmp git markers in project discovery  
-   - **中文：** GitHub 动态：Ignore stale /tmp git markers in project discovery  
-   - **Link | 原文：** [https://github.com/openai/codex/pull/21844](https://github.com/openai/codex/pull/21844)  
+3. **docs: add CLAUDE_PROJECT_DIR to MCP and plugin environment variable docs**  
+   - **EN:** GitHub activity: docs: add CLAUDE_PROJECT_DIR to MCP and plugin environment variable docs  
+   - **中文：** GitHub 动态：docs: add CLAUDE_PROJECT_DIR to MCP and plugin environment variable docs  
+   - **Link | 原文：** [https://github.com/anthropics/claude-code/pull/58314](https://github.com/anthropics/claude-code/pull/58314)  
    - **Tone | 语气:** Neutral / 中性
 
-4. **Explicit @chrome mention routes to IAB instead of Chrome extension backend**  
-   - **EN:** GitHub activity: Explicit @chrome mention routes to IAB instead of Chrome extension backend  
-   - **中文：** GitHub 动态：Explicit @chrome mention routes to IAB instead of Chrome extension backend  
-   - **Link | 原文：** [https://github.com/openai/codex/issues/21876](https://github.com/openai/codex/issues/21876)  
-   - **Tone | 语气:** Critical / cautious / 偏谨慎 / 批评
+4. **v2.1.140**  
+   - **EN:** GitHub activity: v2.1.140  
+   - **中文：** GitHub 动态：v2.1.140  
+   - **Link | 原文：** [https://github.com/anthropics/claude-code/releases/tag/v2.1.140](https://github.com/anthropics/claude-code/releases/tag/v2.1.140)  
+   - **Tone | 语气:** Neutral / 中性
 
-5. **Avoid blocking TUI on agent metadata hydration**  
-   - **EN:** GitHub activity: Avoid blocking TUI on agent metadata hydration  
-   - **中文：** GitHub 动态：Avoid blocking TUI on agent metadata hydration  
-   - **Link | 原文：** [https://github.com/openai/codex/pull/21870](https://github.com/openai/codex/pull/21870)  
+5. **hooks: use new session IDs instead of thread IDs for hooks, apply parent's session ID to subagents' **  
+   - **EN:** GitHub activity: hooks: use new session IDs instead of thread IDs for hooks, apply parent's session ID to subagents' hooks  
+   - **中文：** GitHub 动态：hooks: use new session IDs instead of thread IDs for hooks, apply parent's session ID to subagents' hooks  
+   - **Link | 原文：** [https://github.com/openai/codex/pull/22268](https://github.com/openai/codex/pull/22268)  
    - **Tone | 语气:** Neutral / 中性
 
 ### More | 更多条目
-- [Ignore stale /tmp git markers in project discovery](https://github.com/openai/codex/pull/21844) — *GitHub 动态：Ignore stale /tmp git markers in project discovery* / *GitHub activity: Ignore stale /tmp git markers in project discovery*
-- [Avoid blocking TUI on agent metadata hydration](https://github.com/openai/codex/pull/21870) — *GitHub 动态：Avoid blocking TUI on agent metadata hydration* / *GitHub activity: Avoid blocking TUI on agent metadata hydration*
-- [feat: add Bedrock Mantle client agent header](https://github.com/openai/codex/pull/21840) — *GitHub 动态：feat: add Bedrock Mantle client agent header* / *GitHub activity: feat: add Bedrock Mantle client agent header*
-- [app-server: support daemon-safe restart handling](https://github.com/openai/codex/pull/21831) — *GitHub 动态：app-server: support daemon-safe restart handling* / *GitHub activity: app-server: support daemon-safe restart handling*
-- [ci: check out PR head commits in workflows](https://github.com/openai/codex/pull/21835) — *GitHub 动态：ci: check out PR head commits in workflows* / *GitHub activity: ci: check out PR head commits in workflows*
-- [0.130.0](https://github.com/openai/codex/releases/tag/rust-v0.130.0) — *GitHub 动态：0.130.0* / *GitHub activity: 0.130.0*
-- [Per-agent MCP server gating (subagents inherit full MCP context)](https://github.com/anthropics/claude-code/issues/57531) — *GitHub 动态：Per-agent MCP server gating (subagents inherit full MCP context)* / *GitHub activity: Per-agent MCP server gating (subagents inherit full MCP context*
+- [Restore app-server websocket listener with auth guard](https://github.com/openai/codex/pull/22404) — *GitHub 动态：Restore app-server websocket listener with auth guard* / *GitHub activity: Restore app-server websocket listener with auth guard*
+- [[codex] Remove tool search bucket limit override](https://github.com/openai/codex/pull/22381) — *GitHub 动态：[codex] Remove tool search bucket limit override* / *GitHub activity: [codex] Remove tool search bucket limit override*
+- [Use plugin/list to get list of plugins for mentions](https://github.com/openai/codex/pull/22375) — *GitHub 动态：Use plugin/list to get list of plugins for mentions* / *GitHub activity: Use plugin/list to get list of plugins for mentions*
+- [hooks: use new session IDs instead of thread IDs for hooks, apply pare](https://github.com/openai/codex/pull/22268) — *GitHub 动态：hooks: use new session IDs instead of thread IDs for hooks, apply pare* / *GitHub activity: hooks: use new session IDs instead of thread IDs for hooks, app*
+- [Restore app-server websocket listener with auth guard](https://github.com/openai/codex/pull/22404) — *GitHub 动态：Restore app-server websocket listener with auth guard* / *GitHub activity: Restore app-server websocket listener with auth guard*
+- [[codex] Remove tool search bucket limit override](https://github.com/openai/codex/pull/22381) — *GitHub 动态：[codex] Remove tool search bucket limit override* / *GitHub activity: [codex] Remove tool search bucket limit override*
+- [Use plugin/list to get list of plugins for mentions](https://github.com/openai/codex/pull/22375) — *GitHub 动态：Use plugin/list to get list of plugins for mentions* / *GitHub activity: Use plugin/list to get list of plugins for mentions*
 
 ## 3) AI Web | 官网资讯与研究更新
 
@@ -110,44 +110,44 @@
 *中文 — 聚合官网公告、研究和产品页面更新。*
 
 ### Highlights | 重点速览
-1. **Codex Desktop Node REPL does not inherit proxy environment, causing nodeRepl.fetch and Chrome backen**  
-   - **EN:** GitHub activity: Codex Desktop Node REPL does not inherit proxy environment, causing nodeRepl.fetch and Chrome backend setup to hang on macOS  
-   - **中文：** GitHub 动态：Codex Desktop Node REPL does not inherit proxy environment, causing nodeRepl.fetch and Chrome backend setup to hang on macOS  
-   - **Link | 原文：** [https://github.com/openai/codex/issues/21713](https://github.com/openai/codex/issues/21713)  
+1. **[claude-in-chrome] MCP server connects (20 tools) but every tool call returns "Browser extension is **  
+   - **EN:** GitHub activity: [claude-in-chrome] MCP server connects (20 tools) but every tool call returns "Browser extension is not connected"  
+   - **中文：** GitHub 动态：[claude-in-chrome] MCP server connects (20 tools) but every tool call returns "Browser extension is not connected"  
+   - **Link | 原文：** [https://github.com/anthropics/claude-code/issues/58553](https://github.com/anthropics/claude-code/issues/58553)  
    - **Tone | 语气:** Critical / cautious / 偏谨慎 / 批评
 
-2. **Codex Desktop: @Chrome extension is Connected but browser tasks fall back to chrome-devtools isolate**  
-   - **EN:** GitHub activity: Codex Desktop: @Chrome extension is Connected but browser tasks fall back to chrome-devtools isolated profile on Windows  
-   - **中文：** GitHub 动态：Codex Desktop: @Chrome extension is Connected but browser tasks fall back to chrome-devtools isolated profile on Windows  
-   - **Link | 原文：** [https://github.com/openai/codex/issues/21868](https://github.com/openai/codex/issues/21868)  
-   - **Tone | 语气:** Critical / cautious / 偏谨慎 / 批评
-
-3. **tests: characterize macOS sandbox link writes**  
-   - **EN:** GitHub activity: tests: characterize macOS sandbox link writes  
-   - **中文：** GitHub 动态：tests: characterize macOS sandbox link writes  
-   - **Link | 原文：** [https://github.com/openai/codex/pull/21845](https://github.com/openai/codex/pull/21845)  
+2. **[FEATURE] Ignore-whitespace option for Edit tool diff display**  
+   - **EN:** GitHub activity: [FEATURE] Ignore-whitespace option for Edit tool diff display  
+   - **中文：** GitHub 动态：[FEATURE] Ignore-whitespace option for Edit tool diff display  
+   - **Link | 原文：** [https://github.com/anthropics/claude-code/issues/58542](https://github.com/anthropics/claude-code/issues/58542)  
    - **Tone | 语气:** Neutral / 中性
 
-4. **tests: cover sandbox link write behavior**  
-   - **EN:** GitHub activity: tests: cover sandbox link write behavior  
-   - **中文：** GitHub 动态：tests: cover sandbox link write behavior  
-   - **Link | 原文：** [https://github.com/openai/codex/pull/21819](https://github.com/openai/codex/pull/21819)  
+3. **feat: route guardian review model selection through providers**  
+   - **EN:** GitHub activity: feat: route guardian review model selection through providers  
+   - **中文：** GitHub 动态：feat: route guardian review model selection through providers  
+   - **Link | 原文：** [https://github.com/openai/codex/pull/22258](https://github.com/openai/codex/pull/22258)  
    - **Tone | 语气:** Neutral / 中性
 
-5. **Increase exec-server environment transport timeouts**  
-   - **EN:** GitHub activity: Increase exec-server environment transport timeouts  
-   - **中文：** GitHub 动态：Increase exec-server environment transport timeouts  
-   - **Link | 原文：** [https://github.com/openai/codex/pull/21825](https://github.com/openai/codex/pull/21825)  
+4. **Stabilize remote routing e2e tests**  
+   - **EN:** GitHub activity: Stabilize remote routing e2e tests  
+   - **中文：** GitHub 动态：Stabilize remote routing e2e tests  
+   - **Link | 原文：** [https://github.com/openai/codex/pull/22389](https://github.com/openai/codex/pull/22389)  
+   - **Tone | 语气:** Neutral / 中性
+
+5. **app-server: select permission profiles by id**  
+   - **EN:** GitHub activity: app-server: select permission profiles by id  
+   - **中文：** GitHub 动态：app-server: select permission profiles by id  
+   - **Link | 原文：** [https://github.com/openai/codex/pull/22402](https://github.com/openai/codex/pull/22402)  
    - **Tone | 语气:** Neutral / 中性
 
 ### More | 更多条目
-- [Make environment provider snapshots path-free](https://github.com/openai/codex/pull/21794) — *GitHub 动态：Make environment provider snapshots path-free* / *GitHub activity: Make environment provider snapshots path-free*
-- [[MODEL] Ignores Read Permissions when Using Grep](https://github.com/anthropics/claude-code/issues/57525) — *GitHub 动态：[MODEL] Ignores Read Permissions when Using Grep* / *GitHub activity: [MODEL] Ignores Read Permissions when Using Grep*
-- [Dispatch beta: enable user-defined PreToolUse / output hooks for SendU](https://github.com/anthropics/claude-code/issues/57523) — *GitHub 动态：Dispatch beta: enable user-defined PreToolUse / output hooks for SendU* / *GitHub activity: Dispatch beta: enable user-defined PreToolUse / output hooks fo*
-- [[FEATURE] Static whiteboard](https://github.com/anthropics/claude-code/issues/57520) — *GitHub 动态：[FEATURE] Static whiteboard* / *GitHub activity: [FEATURE] Static whiteboard*
-- [[FEATURE] `OnSystemReminder` hook event with `reminder_text` payload](https://github.com/anthropics/claude-code/issues/57519) — *GitHub 动态：[FEATURE] `OnSystemReminder` hook event with `reminder_text` payload* / *GitHub activity: [FEATURE] `OnSystemReminder` hook event with `reminder_text` pa*
-- [Remove 'statsig.anthropic.com' from firewall script](https://github.com/anthropics/claude-code/pull/57190) — *GitHub 动态：Remove 'statsig.anthropic.com' from firewall script* / *GitHub activity: Remove 'statsig.anthropic.com' from firewall script*
-- [plan mode下，qwen code完成回复后在ghostty终端会出现不停闪屏](https://github.com/QwenLM/qwen-code/issues/3979) — *GitHub 动态：plan mode下，qwen code完成回复后在ghostty终端会出现不停闪屏* / *GitHub activity: plan mode下，qwen code完成回复后在ghostty终端会出现不停闪屏*
+- [permissions: move workspace roots onto thread state](https://github.com/openai/codex/pull/22401) — *GitHub 动态：permissions: move workspace roots onto thread state* / *GitHub activity: permissions: move workspace roots onto thread state*
+- [permissions: move workspace roots onto thread state](https://github.com/openai/codex/pull/22327) — *GitHub 动态：permissions: move workspace roots onto thread state* / *GitHub activity: permissions: move workspace roots onto thread state*
+- [feat: route guardian review model selection through providers](https://github.com/openai/codex/pull/22258) — *GitHub 动态：feat: route guardian review model selection through providers* / *GitHub activity: feat: route guardian review model selection through providers*
+- [Stabilize remote routing e2e tests](https://github.com/openai/codex/pull/22389) — *GitHub 动态：Stabilize remote routing e2e tests* / *GitHub activity: Stabilize remote routing e2e tests*
+- [app-server: select permission profiles by id](https://github.com/openai/codex/pull/22402) — *GitHub 动态：app-server: select permission profiles by id* / *GitHub activity: app-server: select permission profiles by id*
+- [permissions: move workspace roots onto thread state](https://github.com/openai/codex/pull/22401) — *GitHub 动态：permissions: move workspace roots onto thread state* / *GitHub activity: permissions: move workspace roots onto thread state*
+- [permissions: move workspace roots onto thread state](https://github.com/openai/codex/pull/22327) — *GitHub 动态：permissions: move workspace roots onto thread state* / *GitHub activity: permissions: move workspace roots onto thread state*
 
 ## 4) AI Trending | 趋势信号与主题标签
 
@@ -155,44 +155,44 @@
 *中文 — 结合 Trending 与主题标签提炼信号。*
 
 ### Highlights | 重点速览
-1. **Add gh discussion edit command**  
-   - **EN:** GitHub activity: Add gh discussion edit command  
-   - **中文：** GitHub 动态：Add gh discussion edit command  
-   - **Link | 原文：** [https://github.com/cli/cli/pull/13384](https://github.com/cli/cli/pull/13384)  
+1. **/ultrareview crashes twice on same PR — "Review crashed before producing findings"**  
+   - **EN:** GitHub activity: /ultrareview crashes twice on same PR — "Review crashed before producing findings"  
+   - **中文：** GitHub 动态：/ultrareview crashes twice on same PR — "Review crashed before producing findings"  
+   - **Link | 原文：** [https://github.com/anthropics/claude-code/issues/58552](https://github.com/anthropics/claude-code/issues/58552)  
    - **Tone | 语气:** Critical / cautious / 偏谨慎 / 批评
 
-2. **Test issue**  
-   - **EN:** GitHub activity: Test issue  
-   - **中文：** GitHub 动态：Test issue  
-   - **Link | 原文：** [https://github.com/cli/cli/issues/13382](https://github.com/cli/cli/issues/13382)  
-   - **Tone | 语气:** Critical / cautious / 偏谨慎 / 批评
-
-3. **https://github.com/cli/cli/issues/13373**  
-   - **EN:** GitHub activity: https://github.com/cli/cli/issues/13373  
-   - **中文：** GitHub 动态：https://github.com/cli/cli/issues/13373  
-   - **Link | 原文：** [https://github.com/cli/cli/issues/13374](https://github.com/cli/cli/issues/13374)  
-   - **Tone | 语气:** Critical / cautious / 偏谨慎 / 批评
-
-4. **gh cs ports**  
-   - **EN:** GitHub activity: gh cs ports  
-   - **中文：** GitHub 动态：gh cs ports  
-   - **Link | 原文：** [https://github.com/cli/cli/issues/13371](https://github.com/cli/cli/issues/13371)  
+2. **/goal evaluator has no circuit breaker — unsatisfiable conditions burn unlimited tokens**  
+   - **EN:** GitHub activity: /goal evaluator has no circuit breaker — unsatisfiable conditions burn unlimited tokens  
+   - **中文：** GitHub 动态：/goal evaluator has no circuit breaker — unsatisfiable conditions burn unlimited tokens  
+   - **Link | 原文：** [https://github.com/anthropics/claude-code/issues/58550](https://github.com/anthropics/claude-code/issues/58550)  
    - **Tone | 语气:** Neutral / 中性
 
-5. **Add gh discussion edit command**  
-   - **EN:** GitHub activity: Add gh discussion edit command  
-   - **中文：** GitHub 动态：Add gh discussion edit command  
-   - **Link | 原文：** [https://github.com/cli/cli/pull/13384](https://github.com/cli/cli/pull/13384)  
+3. **Surface-level fix tendency in long-running projects; previous-session directives not carrying into s**  
+   - **EN:** GitHub activity: Surface-level fix tendency in long-running projects; previous-session directives not carrying into subsequent bug fixes  
+   - **中文：** GitHub 动态：Surface-level fix tendency in long-running projects; previous-session directives not carrying into subsequent bug fixes  
+   - **Link | 原文：** [https://github.com/anthropics/claude-code/issues/58549](https://github.com/anthropics/claude-code/issues/58549)  
    - **Tone | 语气:** Critical / cautious / 偏谨慎 / 批评
 
+4. **[codex] Remove unused legacy shell tools**  
+   - **EN:** GitHub activity: [codex] Remove unused legacy shell tools  
+   - **中文：** GitHub 动态：[codex] Remove unused legacy shell tools  
+   - **Link | 原文：** [https://github.com/openai/codex/pull/22246](https://github.com/openai/codex/pull/22246)  
+   - **Tone | 语气:** Neutral / 中性
+
+5. **Refactor chatwidget input flow into modules**  
+   - **EN:** GitHub activity: Refactor chatwidget input flow into modules  
+   - **中文：** GitHub 动态：Refactor chatwidget input flow into modules  
+   - **Link | 原文：** [https://github.com/openai/codex/pull/22407](https://github.com/openai/codex/pull/22407)  
+   - **Tone | 语气:** Neutral / 中性
+
 ### More | 更多条目
-- [Route Python SDK turn notifications by ID](https://github.com/openai/codex/pull/21778) — *GitHub 动态：Route Python SDK turn notifications by ID* / *GitHub activity: Route Python SDK turn notifications by ID*
-- [Move live thread metadata handling above recorder](https://github.com/openai/codex/pull/21874) — *GitHub 动态：Move live thread metadata handling above recorder* / *GitHub activity: Move live thread metadata handling above recorder*
-- [feat: Add role-aware plugin share context APIs](https://github.com/openai/codex/pull/21867) — *GitHub 动态：feat: Add role-aware plugin share context APIs* / *GitHub activity: feat: Add role-aware plugin share context APIs*
-- [Add thread metadata store API](https://github.com/openai/codex/pull/21873) — *GitHub 动态：Add thread metadata store API* / *GitHub activity: Add thread metadata store API*
-- [fix: preserve empty JSON schemas for tool parameters](https://github.com/openai/codex/pull/21854) — *GitHub 动态：fix: preserve empty JSON schemas for tool parameters* / *GitHub activity: fix: preserve empty JSON schemas for tool parameters*
-- [Split ChatWidget state into focused modules](https://github.com/openai/codex/pull/21866) — *GitHub 动态：Split ChatWidget state into focused modules* / *GitHub activity: Split ChatWidget state into focused modules*
-- [Add an official setting to resize the Codex desktop pet/avatar overlay](https://github.com/openai/codex/issues/21864) — *GitHub 动态：Add an official setting to resize the Codex desktop pet/avatar overlay* / *GitHub activity: Add an official setting to resize the Codex desktop pet/avatar *
+- [Encapsulate tool search entries in handlers](https://github.com/openai/codex/pull/22261) — *GitHub 动态：Encapsulate tool search entries in handlers* / *GitHub activity: Encapsulate tool search entries in handlers*
+- [macOS sandbox blocks os.sysconf("SC_SEM_NSEMS_MAX"), breaking Python P](https://github.com/openai/codex/issues/22405) — *GitHub 动态：macOS sandbox blocks os.sysconf("SC_SEM_NSEMS_MAX"), breaking Python P* / *GitHub activity: macOS sandbox blocks os.sysconf("SC_SEM_NSEMS_MAX"), breaking P*
+- [tools: infer code-mode namespace descriptions from specs](https://github.com/openai/codex/pull/22406) — *GitHub 动态：tools: infer code-mode namespace descriptions from specs* / *GitHub activity: tools: infer code-mode namespace descriptions from specs*
+- [Route delegated MCP elicitations back to child session](https://github.com/openai/codex/pull/22399) — *GitHub 动态：Route delegated MCP elicitations back to child session* / *GitHub activity: Route delegated MCP elicitations back to child session*
+- [Pass Codex product SKU to ChatGPT backend](https://github.com/openai/codex/pull/22366) — *GitHub 动态：Pass Codex product SKU to ChatGPT backend* / *GitHub activity: Pass Codex product SKU to ChatGPT backend*
+- [feat(tui): standardize picker navigation keys](https://github.com/openai/codex/pull/22347) — *GitHub 动态：feat(tui): standardize picker navigation keys* / *GitHub activity: feat(tui): standardize picker navigation keys*
+- [Refactor chatwidget state into modules](https://github.com/openai/codex/pull/22269) — *GitHub 动态：Refactor chatwidget state into modules* / *GitHub activity: Refactor chatwidget state into modules*
 
 ## 5) AI HN | Hacker News 社区脉搏
 
@@ -200,44 +200,44 @@
 *中文 — 提取社区高热讨论并观察情绪。*
 
 ### Highlights | 重点速览
-1. **AI is breaking two vulnerability cultures**  
-   - **EN:** HN discussion: AI is breaking two vulnerability cultures  
-   - **中文：** Hacker News 热议：AI is breaking two vulnerability cultures  
-   - **Link | 原文：** [https://www.jefftk.com/p/ai-is-breaking-two-vulnerability-cultures](https://www.jefftk.com/p/ai-is-breaking-two-vulnerability-cultures)  
+1. **Reimagining the mouse pointer for the AI era**  
+   - **EN:** HN discussion: Reimagining the mouse pointer for the AI era  
+   - **中文：** Hacker News 热议：Reimagining the mouse pointer for the AI era  
+   - **Link | 原文：** [https://deepmind.google/blog/ai-pointer/](https://deepmind.google/blog/ai-pointer/)  
    - **Tone | 语气:** Neutral / 中性
 
-2. **People Hate AI Art**  
-   - **EN:** HN discussion: People Hate AI Art  
-   - **中文：** Hacker News 热议：People Hate AI Art  
-   - **Link | 原文：** [https://mccue.dev/pages/5-8-26-ai-art](https://mccue.dev/pages/5-8-26-ai-art)  
+2. **Show HN: Agentic interface for mainframes and COBOL**  
+   - **EN:** HN discussion: Show HN: Agentic interface for mainframes and COBOL  
+   - **中文：** Hacker News 热议：Show HN: Agentic interface for mainframes and COBOL  
+   - **Link | 原文：** [https://www.hypercubic.ai/hopper](https://www.hypercubic.ai/hopper)  
+   - **Tone | 语气:** Positive tone / 偏积极
+
+3. **Company behind GLiNER model released open source model for running LLM guardrail**  
+   - **EN:** HN discussion: Company behind GLiNER model released open source model for running LLM guardrail  
+   - **中文：** Hacker News 热议：Company behind GLiNER model released open source model for running LLM guardrail  
+   - **Link | 原文：** [https://pioneer.ai/blog/gliguard-16x-faster-safety-moderation-with-a-small-language-model](https://pioneer.ai/blog/gliguard-16x-faster-safety-moderation-with-a-small-language-model)  
    - **Tone | 语气:** Neutral / 中性
 
-3. **Show HN: GETadb.com – every GET request creates a DB**  
-   - **EN:** HN discussion: Show HN: GETadb.com – every GET request creates a DB  
-   - **中文：** Hacker News 热议：Show HN: GETadb.com – every GET request creates a DB  
-   - **Link | 原文：** [https://www.getadb.com/](https://www.getadb.com/)  
+4. **AI isn't paying off in the way companies think according to Gartner study**  
+   - **EN:** HN discussion: AI isn't paying off in the way companies think according to Gartner study  
+   - **中文：** Hacker News 热议：AI isn't paying off in the way companies think according to Gartner study  
+   - **Link | 原文：** [https://fortune.com/2026/05/11/ai-automation-layoffs-gartner-study-roi/](https://fortune.com/2026/05/11/ai-automation-layoffs-gartner-study-roi/)  
    - **Tone | 语气:** Neutral / 中性
 
-4. **We Spent 10 Days Touring Chinese AI Labs. Here's What We Saw**  
-   - **EN:** HN discussion: We Spent 10 Days Touring Chinese AI Labs. Here's What We Saw  
-   - **中文：** Hacker News 热议：We Spent 10 Days Touring Chinese AI Labs. Here's What We Saw  
-   - **Link | 原文：** [https://blog.readsail.com/p/we-spent-10-days-touring-chinese](https://blog.readsail.com/p/we-spent-10-days-touring-chinese)  
-   - **Tone | 语气:** Neutral / 中性
-
-5. **Sandboxing AIOps and Agentic AI Security**  
-   - **EN:** HN discussion: Sandboxing AIOps and Agentic AI Security  
-   - **中文：** Hacker News 热议：Sandboxing AIOps and Agentic AI Security  
-   - **Link | 原文：** [https://blog.cosmonic.com/engineering/aiops-and-agentic-ai-security-in-a-componentized-world/](https://blog.cosmonic.com/engineering/aiops-and-agentic-ai-security-in-a-componentized-world/)  
+5. **New Jersey residents say they can't even wash their clothes due to data centers**  
+   - **EN:** HN discussion: New Jersey residents say they can't even wash their clothes due to data centers  
+   - **中文：** Hacker News 热议：New Jersey residents say they can't even wash their clothes due to data centers  
+   - **Link | 原文：** [https://www.thecooldown.com/green-business/ai-data-center-vineland-new-jersey-backlash/](https://www.thecooldown.com/green-business/ai-data-center-vineland-new-jersey-backlash/)  
    - **Tone | 语气:** Neutral / 中性
 
 ### More | 更多条目
-- [Pentagon will 'never again' rely on a single AI provider, official say](https://www.nextgov.com/artificial-intelligence/2026/05/pentagon-will-never-again-rely-single-ai-provider-official-says/413399/) — *Hacker News 热议：Pentagon will 'never again' rely on a single AI provider, officia* / *HN discussion: Pentagon will 'never again' rely on a single AI provider, officia*
-- [AI's Circular Psychosis](https://www.wheresyoured.at/premium-ais-circular-psychosis/) — *Hacker News 热议：AI's Circular Psychosis* / *HN discussion: AI's Circular Psychosis*
-- [Trump jumps from 'anything goes' to 'strict regulation' AI policy](https://www.theregister.com/ai-and-ml/2026/05/08/trump-jumps-from-anything-goes-to-strict-regulation-ai-policy/5234687) — *Hacker News 热议：Trump jumps from 'anything goes' to 'strict regulation' AI policy* / *HN discussion: Trump jumps from 'anything goes' to 'strict regulation' AI policy*
-- [AI Is Distorting Practically Everything About the Economy](https://www.wsj.com/tech/ai/ai-is-distorting-practically-everything-about-the-economy-4ca6fcff) — *Hacker News 热议：AI Is Distorting Practically Everything About the Economy* / *HN discussion: AI Is Distorting Practically Everything About the Economy*
-- [Mythos set off a cybersecurity 'hysteria.' Experts say threat was alre](https://www.cnbc.com/2026/05/08/anthropic-mythos-ai-cybersecurity-banks.html) — *Hacker News 热议：Mythos set off a cybersecurity 'hysteria.' Experts say threat was* / *HN discussion: Mythos set off a cybersecurity 'hysteria.' Experts say threat was*
-- [DeepL lays off 25% of its workforce](https://www.heise.de/en/news/Cologne-AI-translator-DeepL-lays-off-a-quarter-of-its-workforce-11286250.html) — *Hacker News 热议：DeepL lays off 25% of its workforce* / *HN discussion: DeepL lays off 25% of its workforce*
-- [The 'dangerous' promise of a techno-utopian future (2025)](https://www.cbc.ca/radio/ideas/tech-billionaires-ai-utopia-1.7440698) — *Hacker News 热议：The 'dangerous' promise of a techno-utopian future (2025)* / *HN discussion: The 'dangerous' promise of a techno-utopian future (2025)*
+- [Kash Patel Touts AI Overhaul of FBI Crime-Fighting Operations](https://decrypt.co/367431/kash-patel-ai-overhaul-fbi-crime-fighting-operations) — *Hacker News 热议：Kash Patel Touts AI Overhaul of FBI Crime-Fighting Operations* / *HN discussion: Kash Patel Touts AI Overhaul of FBI Crime-Fighting Operations*
+- [AI shouldn't have a meter. Unlimited tokens. Forever](https://www.openmonoagent.ai/) — *Hacker News 热议：AI shouldn't have a meter. Unlimited tokens. Forever* / *HN discussion: AI shouldn't have a meter. Unlimited tokens. Forever*
+- [AI load breaks GitHub – why not other vendors?](https://blog.pragmaticengineer.com/the-pulse-ai-load-breaks-github/) — *Hacker News 热议：AI load breaks GitHub – why not other vendors?* / *HN discussion: AI load breaks GitHub – why not other vendors?*
+- [Show HN: I submitted 316 AI-generated PRs to open source](https://june.kim/speedrunning-open-source) — *Hacker News 热议：Show HN: I submitted 316 AI-generated PRs to open source* / *HN discussion: Show HN: I submitted 316 AI-generated PRs to open source*
+- [Microsoft's $1B AI data center will "switch off half of Kenya"](https://www.windowscentral.com/artificial-intelligence/kenya-president-warns-microsofts-1-billion-ai-data-center-will-switch-off-half-the-country) — *Hacker News 热议：Microsoft's $1B AI data center will "switch off half of Kenya"* / *HN discussion: Microsoft's $1B AI data center will "switch off half of Kenya"*
+- [Show HN: How we made MCP development feel good](https://manufact.com/blog/mcp-testing) — *Hacker News 热议：Show HN: How we made MCP development feel good* / *HN discussion: Show HN: How we made MCP development feel good*
+- [Chatbots struggle to understand open gov data sources](https://www.urban.org/urban-wire/ai-becoming-go-data-questions-how-reliable-are-answers?) — *Hacker News 热议：Chatbots struggle to understand open gov data sources* / *HN discussion: Chatbots struggle to understand open gov data sources*
 
 
 ---
